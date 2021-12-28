@@ -19,4 +19,3 @@ setopt hist_ignore_all_dups
 setopt inc_append_history
 
 eval "$(starship init zsh)"
-
