@@ -1,0 +1,10 @@
+[user]
+	name = Shun Miyazawa
+	email = shun-m@weseek.co.jp
+[core]
+	autoCRLF = false
+	editor = vi
+[color]
+	ui = true
+	diff = true
+
