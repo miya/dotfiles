@@ -13,6 +13,7 @@ fi
 # install git
 if [ ! -f /usr/bin/git ]; then
   brew install git
+fi
 
 # clone dotfiles
 if [ ! -d ~/dotfiles ]; then

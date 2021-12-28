@@ -1,1 +1,6 @@
-## dotfiles
+# dotfiles
+
+## installation
+```bash
+$ curl 
+```
