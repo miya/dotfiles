@@ -24,14 +24,12 @@ ln -sfv ${DOTFILES}/.zshrc ${HOME}/.zshrc
 ln -sfv ${DOTFILES}/.vimrc ${HOME}/.vimrc
 ln -sfv ${DOTFILES}/.gitconfig ${HOME}/.gitconfig
 
+# TODO mac os settings
+
 # install brew bundle
 which brew >/dev/null 2>&1 && brew doctor
 brew update
 brew upgrade
 brew bundle --file ${DOTFILES}/Brewfile
 brew cleanup
-
-
-
-
 
