@@ -1,3 +1,4 @@
+# Taps
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
@@ -5,13 +6,15 @@ tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
 
+# Binaries
 brew "bat"
-brew "bluetoothconnector"
 brew "ffmpeg"
+brew "git"
 brew "mas"
-brew "switchaudio-osx"
+brew "starship"
 brew "tree"
 
+# Apps
 cask "appcleaner"
 cask "chromedriver"
 cask "clipy"
@@ -19,10 +22,8 @@ cask "deepl"
 cask "discord"
 cask "docker"
 cask "figma"
-cask "font-hackgen-nerd"
 cask "google-chrome"
 cask "google-cloud-sdk"
-cask "google-japanese-ime"
 cask "hyperswitch"
 cask "iterm2"
 cask "keepassxc"
@@ -31,16 +32,18 @@ cask "line-bot-designer"
 cask "ngrok"
 cask "notion"
 cask "onyx"
-cask "postman"
 cask "robo-3t"
 cask "skitch"
-cask "skype"
 cask "slack"
 cask "sourcetree"
 cask "spotify"
 cask "visual-studio-code"
 cask "zoom"
 
+# Fonts
+cask "font-hackgen-nerd"
+
+# Mac App Store
 mas "Amphetamine", id: 937984704
 mas "BetterSnapTool", id: 417375580
 mas "CotEditor", id: 1024640650
