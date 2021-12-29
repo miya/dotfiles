@@ -1,5 +1,13 @@
 #!/bin/sh
 
+#                      __             ___    ___
+#  __                 /\ \__         /\_ \  /\_ \
+# /\_\    ___     ____\ \ ,_\    __  \//\ \ \//\ \
+# \/\ \ /' _ `\  /',__\\ \ \/  /'__`\  \ \ \  \ \ \
+#  \ \ \/\ \/\ \/\__, `\\ \ \_/\ \L\.\_ \_\ \_ \_\ \_
+#   \ \_\ \_\ \_\/\____/ \ \__\ \__/.\_\/\____\/\____\
+#    \/_/\/_/\/_/\/___/   \/__/\/__/\/_/\/____/\/____/
+
 set -eu
 
 DOTFILES="${HOME}/dotfiles"
@@ -24,8 +32,6 @@ fi
 ln -sfv ${DOTFILES}/.zshrc ${HOME}/.zshrc
 ln -sfv ${DOTFILES}/.vimrc ${HOME}/.vimrc
 ln -sfv ${DOTFILES}/.gitconfig ${HOME}/.gitconfig
-
-# TODO mac os settings
 
 # install brew bundle
 which brew >/dev/null 2>&1 && brew doctor
