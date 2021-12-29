@@ -1,4 +1,4 @@
-alias so="source .zshrc"
+alias so="source ~/.zshrc"
 alias ls="ls -G"
 alias ll="ls -lG"
 alias la="ls -laG"
