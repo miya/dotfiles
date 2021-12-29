@@ -2,7 +2,7 @@
 ## installation
 Signin to MacAppStore first
 ```bash
-$ curl -sL https://raw.githubusercontent.com/miya/dotfiles/master/install.sh | sh
+$ curl -sL bit.ly/32tw4Xw | sh
 ```
 ## manual installation
 - [cmd-eikana](https://ei-kana.appspot.com/)
