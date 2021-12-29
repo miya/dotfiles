@@ -12,3 +12,8 @@
 mkdir ~/Pictures/ScreenShots/
 defaults write com.apple.screencapture location ~/Pictures/ScreenShots/
 defaults write com.apple.screencapture name "ScreenShot"
+
+# setup dock
+defaults write com.apple.dock autohide -bool true
+defaults write com.apple.dock show-recents -bool false
+killall Dock
