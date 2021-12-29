@@ -1,7 +1,6 @@
 # dotfiles
-
-Sign in to the MacAppStore first
 ## installation
+Signin to MacAppStore first
 ```bash
 $ curl -sL https://raw.githubusercontent.com/miya/dotfiles/master/install.sh | sh
 ```
