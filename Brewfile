@@ -14,6 +14,11 @@ brew "mas"
 brew "starship"
 brew "tree"
 
+# Dev
+brew "node"
+brew "python@3.9"
+brew "yarn"
+
 # Apps
 cask "appcleaner"
 cask "chromedriver"
