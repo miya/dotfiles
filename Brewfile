@@ -9,6 +9,7 @@ tap "homebrew/services"
 # Binaries
 brew "bat"
 brew "ffmpeg"
+brew "figlet"
 brew "git"
 brew "mas"
 brew "starship"
