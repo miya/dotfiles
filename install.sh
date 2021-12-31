@@ -29,13 +29,13 @@ if [ ! -d ~/dotfiles ]; then
 fi
 
 # create symlink
-ln -sfv "${DOTFILES}/.zshrc" "${HOME}/.zshrc"
-ln -sfv "${DOTFILES}/.vimrc" "${HOME}/.vimrc"
-ln -sfv "${DOTFILES}/.gitconfig" "${HOME}/.gitconfig"
+ln -sfv ${DOTFILES}/.zshrc ${HOME}/.zshrc
+ln -sfv ${DOTFILES}/.vimrc ${HOME}/.vimrc
+ln -sfv ${DOTFILES}/.gitconfig ${HOME}/.gitconfig
 
 # install brew bundle
 which brew >/dev/null 2>&1 && brew doctor
 brew update
 brew upgrade
-brew bundle --file "${DOTFILES}/Brewfile"
+brew bundle --file ${DOTFILES}/Brewfile
 brew cleanup
