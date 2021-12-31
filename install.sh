@@ -24,7 +24,7 @@ if [ ! -f /usr/bin/git ]; then
 fi
 
 # clone dotfiles
-if [ ! -d $DOTFILES ]; then
+if [ ! -d "$DOTFILES" ]; then
   git clone https://github.com/miya/dotfiles
 fi
 
@@ -34,7 +34,7 @@ ln -sfv "${DOTFILES}"/.vimrc "${HOME}"/.vimrc
 ln -sfv "${DOTFILES}"/.gitconfig "${HOME}"/.gitconfig
 
 # install brew bundle
-which brew >/dev/null 2>&1 && brew doctor
+brew doctor
 brew update
 brew upgrade
 brew bundle --file "${DOTFILES}"/Brewfile
