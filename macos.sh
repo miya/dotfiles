@@ -7,6 +7,8 @@
 #   \ \_\\ \_\ \__/.\_\ \____\\ \_____\/\____/
 #    \/_/ \/_/\/__/\/_/\/____/ \/_____/\/___/
 
+set -e
+
 
 # setup screenshot
 mkdir ~/Pictures/ScreenShots/
