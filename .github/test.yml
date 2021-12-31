@@ -16,3 +16,5 @@ jobs:
 
     - name: Run macos.sh
       run: ${GITHUB_WORKSPACE}/macos.sh
+
+    # TODO: add dotfiles

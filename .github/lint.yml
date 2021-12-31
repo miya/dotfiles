@@ -1,4 +1,4 @@
-name lint
+name: lint
 
 on:
   push:
@@ -21,3 +21,5 @@ jobs:
 
     - name: Check macos.sh
       run: shellcheck ${GITHUB_WORKSPACE}/macos.sh
+
+    # TODO: add dotfiles
