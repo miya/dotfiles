@@ -8,6 +8,7 @@ tap "homebrew/services"
 
 # Binaries
 brew "bat"
+brew "bluetoothconnector"
 brew "ffmpeg"
 brew "figlet"
 brew "git"
@@ -17,7 +18,6 @@ brew "tree"
 
 # Dev
 brew "node"
-brew "python@3.9"
 brew "yarn"
 
 # Apps
